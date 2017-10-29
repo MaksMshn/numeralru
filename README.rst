@@ -19,13 +19,13 @@ Tests can be run with::
 Usage
 -----
 
-    >>> from numeralru import numeralize, Gender, Case
-    >>> numeralize(14, Gender.neuter, Case.instrumental)
-    'четырнадцатью'
-    >>> numeralize(123, Gender.feminine, Case.accusative, animate=True)
-    'сто двадцать трёх'
-    >>> numeralize(1337, long=False)
-    'тысяча триста тридцать семь'
+>>> from numeralru import numeralize, Gender, Case
+>>> numeralize(14, Gender.neuter, Case.instrumental)
+'четырнадцатью'
+>>> numeralize(123, Gender.feminine, Case.accusative, animate=True)
+'сто двадцать трёх'
+>>> numeralize(1337, long=False)
+'тысяча триста тридцать семь'
 
 A detailed funciton documentation can be found by calling::
 
